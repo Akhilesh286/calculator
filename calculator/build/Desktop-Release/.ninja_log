@@ -1,0 +1,8 @@
+# ninja log v5
+0	1947	1721069888015961498	calculator_autogen/timestamp	cc503bb0d45f592f
+0	1947	1721069888015961498	calculator_autogen/mocs_compilation.cpp	cc503bb0d45f592f
+0	1947	1721069888015961498	/home/home/programming/c++/ui/calculator/build/Desktop-Release/calculator_autogen/timestamp	cc503bb0d45f592f
+0	1947	1721069888015961498	/home/home/programming/c++/ui/calculator/build/Desktop-Release/calculator_autogen/mocs_compilation.cpp	cc503bb0d45f592f
+1951	15288	1721069901371968458	CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o	fb7f572399bbd34b
+1959	15795	1721069901879968716	CMakeFiles/calculator.dir/main.cpp.o	7c256645c5bf614c
+1962	17198	1721069903283969425	CMakeFiles/calculator.dir/mainwindow.cpp.o	ff05f32fcfe883
