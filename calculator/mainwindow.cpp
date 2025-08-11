@@ -10,6 +10,15 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    this->setStyleSheet("background-color: #2b2b2b; color: white;");
+
+ui->MainOutput->setStyleSheet("background-color: #1e1e1e; color: white; border: none;");
+
+QString btnStyle = "QPushButton { background-color: #3c3c3c; color: white; border-radius: 5px; }"
+                   "QPushButton:hover { background-color: #505050; }";
+for (auto button : this->findChildren<QPushButton*>()) {
+    button->setStyleSheet(btnStyle);
+}
 }
 
 MainWindow::~MainWindow()
@@ -17,15 +26,19 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
 bool isOperator(char c) {
-    return c == '+' || c == '-' || c == '*' || c == '/';
+    return c == '+' || c == '-' || c == '*' || c == '/' || c == '^';
 }
 
 int precedence(char op) {
     if (op == '+' || op == '-') return 1;
     if (op == '*' || op == '/') return 2;
+    if (op == '^') return 3; // highest precedence
     return 0;
+}
+
+bool isRightAssociative(char op) {
+    return op == '^'; // exponent is right-associative
 }
 
 double applyOperation(double a, double b, char op) {
@@ -34,6 +47,7 @@ double applyOperation(double a, double b, char op) {
     case '-': return a - b;
     case '*': return a * b;
     case '/': return a / b;
+    case '^': return std::pow(a, b);
     }
     return 0;
 }
@@ -60,7 +74,7 @@ double evaluateExpression(const std::string& expression) {
             ops.push(expression[i]);
         }
         else if (expression[i] == ')') {
-            while (ops.top() != '(') {
+            while (!ops.empty() && ops.top() != '(') {
                 double b = values.top(); values.pop();
                 double a = values.top(); values.pop();
                 char op = ops.top(); ops.pop();
@@ -69,7 +83,9 @@ double evaluateExpression(const std::string& expression) {
             ops.pop();
         }
         else if (isOperator(expression[i])) {
-            while (!ops.empty() && precedence(ops.top()) >= precedence(expression[i])) {
+            while (!ops.empty() && 
+                   ((isRightAssociative(expression[i]) && precedence(ops.top()) > precedence(expression[i])) ||
+                    (!isRightAssociative(expression[i]) && precedence(ops.top()) >= precedence(expression[i])))) {
                 double b = values.top(); values.pop();
                 double a = values.top(); values.pop();
                 char op = ops.top(); ops.pop();
@@ -88,6 +104,11 @@ double evaluateExpression(const std::string& expression) {
 
     return values.top();
 }
+
+void MainWindow::on_pushButton_clicked()
+{
+}
+
 
 void MainWindow::on_btnAc_clicked()
 {
@@ -186,7 +207,7 @@ void MainWindow::on_btn2_clicked()
 void MainWindow::on_btn3_clicked()
 {
     QString prevText = ui->MainOutput->text();
-    QString newText = prevText + "1";
+    QString newText = prevText + "3";
     ui->MainOutput->setText(newText);
 }
 

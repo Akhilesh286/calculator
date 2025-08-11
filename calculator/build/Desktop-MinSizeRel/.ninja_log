@@ -1,8 +1,0 @@
-# ninja log v5
-0	422	1721070196260045055	calculator_autogen/timestamp	5bf17f93d63b8335
-0	422	1721070196260045055	calculator_autogen/mocs_compilation.cpp	5bf17f93d63b8335
-0	422	1721070196260045055	/home/home/programming/c++/ui/calculator/build/Desktop-MinSizeRel/calculator_autogen/timestamp	5bf17f93d63b8335
-0	422	1721070196260045055	/home/home/programming/c++/ui/calculator/build/Desktop-MinSizeRel/calculator_autogen/mocs_compilation.cpp	5bf17f93d63b8335
-424	3643	1721070199484045228	CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o	f56597c1d221c4df
-424	3704	1721070199544045231	CMakeFiles/calculator.dir/main.cpp.o	704c4e149f16e393
-424	4559	1721070200400045274	CMakeFiles/calculator.dir/mainwindow.cpp.o	3d868d6c52972528

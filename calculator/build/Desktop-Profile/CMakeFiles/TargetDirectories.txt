@@ -1,9 +1,0 @@
-/home/home/programming/c++/ui/calculator/build/Desktop-Profile/CMakeFiles/calculator.dir
-/home/home/programming/c++/ui/calculator/build/Desktop-Profile/CMakeFiles/edit_cache.dir
-/home/home/programming/c++/ui/calculator/build/Desktop-Profile/CMakeFiles/rebuild_cache.dir
-/home/home/programming/c++/ui/calculator/build/Desktop-Profile/CMakeFiles/list_install_components.dir
-/home/home/programming/c++/ui/calculator/build/Desktop-Profile/CMakeFiles/install.dir
-/home/home/programming/c++/ui/calculator/build/Desktop-Profile/CMakeFiles/install/local.dir
-/home/home/programming/c++/ui/calculator/build/Desktop-Profile/CMakeFiles/install/strip.dir
-/home/home/programming/c++/ui/calculator/build/Desktop-Profile/CMakeFiles/calculator_autogen_timestamp_deps.dir
-/home/home/programming/c++/ui/calculator/build/Desktop-Profile/CMakeFiles/calculator_autogen.dir

@@ -1,9 +1,0 @@
-/home/home/programming/c++/ui/calculator/build/Desktop-MinSizeRel/CMakeFiles/calculator.dir
-/home/home/programming/c++/ui/calculator/build/Desktop-MinSizeRel/CMakeFiles/edit_cache.dir
-/home/home/programming/c++/ui/calculator/build/Desktop-MinSizeRel/CMakeFiles/rebuild_cache.dir
-/home/home/programming/c++/ui/calculator/build/Desktop-MinSizeRel/CMakeFiles/list_install_components.dir
-/home/home/programming/c++/ui/calculator/build/Desktop-MinSizeRel/CMakeFiles/install.dir
-/home/home/programming/c++/ui/calculator/build/Desktop-MinSizeRel/CMakeFiles/install/local.dir
-/home/home/programming/c++/ui/calculator/build/Desktop-MinSizeRel/CMakeFiles/install/strip.dir
-/home/home/programming/c++/ui/calculator/build/Desktop-MinSizeRel/CMakeFiles/calculator_autogen_timestamp_deps.dir
-/home/home/programming/c++/ui/calculator/build/Desktop-MinSizeRel/CMakeFiles/calculator_autogen.dir

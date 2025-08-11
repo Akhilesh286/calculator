@@ -1,0 +1,9 @@
+/home/home/programming/test/calculator/calculator/CMakeFiles/calculator.dir
+/home/home/programming/test/calculator/calculator/CMakeFiles/edit_cache.dir
+/home/home/programming/test/calculator/calculator/CMakeFiles/rebuild_cache.dir
+/home/home/programming/test/calculator/calculator/CMakeFiles/list_install_components.dir
+/home/home/programming/test/calculator/calculator/CMakeFiles/install.dir
+/home/home/programming/test/calculator/calculator/CMakeFiles/install/local.dir
+/home/home/programming/test/calculator/calculator/CMakeFiles/install/strip.dir
+/home/home/programming/test/calculator/calculator/CMakeFiles/calculator_autogen_timestamp_deps.dir
+/home/home/programming/test/calculator/calculator/CMakeFiles/calculator_autogen.dir
