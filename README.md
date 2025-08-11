@@ -11,12 +11,15 @@ I created this project as part of my journey into building desktop applications 
 ## Preview GIF
 ![Demo](./calculator-preview.gif)
 
-
-### 1. Clone the repository
+### Clone the repository
 <pre><code>git clone https://github.com/Akhilesh286/calculator.git
 cd calculator/calculator/
 </code></pre>
 
+### Run the app
+<pre><code>./calculator</code></pre>
+
+## 1. Build the app for linux 
 
 ### 2. Install dependencies (Ubuntu/Debian example)
 <pre><code>sudo apt update
