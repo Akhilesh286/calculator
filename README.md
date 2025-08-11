@@ -1,25 +1,41 @@
-# Calulator with qt C++
+# Calculator with Qt & C++
+This is a basic calculator application built using C++ and Qt.
 
-![file error](https://github.com/Akhilesh286/calculator/blob/b5d358a337f428509ffb3d51c2d347db4a6cad06/Screenshot%20from%202024-07-16%2000-56-57.png)
+I created this project as part of my journey into building desktop applications with C++. Qt proved to be a wonderful framework — with it, I can easily develop applications for both Linux and Windows.
+
+## Techonlogies
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Qt creator](https://img.shields.io/badge/Qt-8A2BE2?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Cmake](https://img.shields.io/badge/cMake-8A2BE2?&color=%2300b87c&style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+## Preview GIF
+![Demo](./calculator-preview.gif)
 
 
-# 1. Clone the repository
-https://github.com/Akhilesh286/calculator.git
+### 1. Clone the repository
+<pre><code>git clone https://github.com/Akhilesh286/calculator.git
 cd calculator/calculator/
+</code></pre>
 
-# 2. Install dependencies (Ubuntu/Debian example)
-sudo apt update
+
+### 2. Install dependencies (Ubuntu/Debian example)
+<pre><code>sudo apt update
 sudo apt install cmake qt6-base-dev qt6-base-dev-tools build-essential
-
-# 3. Create build folder
-mkdir build
+</code></pre>
+### 3. Create build folder
+<pre><code>mkdir build
 cd build
+</code></pre>
 
-# 4. Configure with CMake
-cmake .. -DCMAKE_PREFIX_PATH=$(qtpaths --install-prefix)
+### 4. Configure with CMake
+<pre><code>cmake .. -DCMAKE_PREFIX_PATH=$(qtpaths --install-prefix)
+</code></pre>
 
-# 5. Build the app
-cmake --build .
 
-# 6. Run the app
-./calculator
+### 5. Build the app
+<pre><code>cmake --build .
+</code></pre>
+
+### 6. Run the app
+<pre><code>./calculator
+</code></pre>
