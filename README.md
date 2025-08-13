@@ -3,8 +3,10 @@ This is a basic calculator application built using C++ and Qt.
 
 I created this project as part of my journey into building desktop applications with C++. Qt proved to be a wonderful framework — with it, I can easily develop applications for both Linux and Windows.
 
+I know this is not much of a project. I created this to learn how to build Linux GUI application and it went well  
+
 ## Techonlogies
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![c++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Qt creator](https://img.shields.io/badge/Qt-8A2BE2?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Cmake](https://img.shields.io/badge/cMake-8A2BE2?&color=%2300b87c&style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
